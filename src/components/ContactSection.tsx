@@ -65,12 +65,12 @@ const ContactSection = () => {
 
   const handleWhatsAppClick = () => {
     const message = `¡Hola! Me interesa obtener más información sobre la carrera de Ingeniería Técnica Aeronáutica en UTU Terciaria.`;
-    const whatsappUrl = `https://wa.me/59899123456?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/59899724887?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, "_blank");
   };
 
   const handleInstagramClick = () => {
-    window.open("https://www.instagram.com/utu_aeronautica", "_blank");
+    window.open("https://www.instagram.com/ingtecaerouy", "_blank");
   };
 
   return (
