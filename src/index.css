@@ -6,20 +6,20 @@
 
 @layer base {
   :root {
-    /* Aviation blue color palette */
+    /* Aviation blue color palette - unified blue */
     --background: 210 25% 98%;
     --foreground: 210 35% 15%;
     
-    /* Aviation primary colors - deep blue */
-    --primary: 210 85% 45%;
+    /* Aviation primary colors - unified blue */
+    --primary: 190 85% 60%;
     --primary-foreground: 0 0% 100%;
-    --primary-hover: 210 90% 40%;
+    --primary-hover: 190 90% 55%;
     
-    /* Aviation secondary - sky blue */
-    --secondary: 200 75% 55%;
+    /* Aviation secondary - unified blue */
+    --secondary: 190 85% 60%;
     --secondary-foreground: 0 0% 100%;
     
-    /* Aviation accent - light blue */
+    /* Aviation accent - unified blue */
     --accent: 190 85% 60%;
     --accent-foreground: 210 35% 15%;
     
@@ -40,7 +40,7 @@
     --destructive-foreground: 0 0% 100%;
 
     --border: 210 20% 85%;
-    --ring: 210 85% 45%;
+    --ring: 190 85% 60%;
     
     /* Aviation gradients */
     --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 100%);
@@ -69,10 +69,10 @@
     --popover: 210 20% 10%;
     --popover-foreground: 42 15% 95%;
 
-    --primary: 210 85% 45%;
+    --primary: 190 85% 60%;
     --primary-foreground: 0 0% 100%;
     
-    --secondary: 200 75% 55%;
+    --secondary: 190 85% 60%;
     --secondary-foreground: 0 0% 100%;
 
     --muted: 210 25% 12%;
@@ -86,7 +86,7 @@
 
     --border: 210 25% 18%;
     --input: 210 25% 12%;
-    --ring: 210 85% 45%;
+    --ring: 190 85% 60%;
   }
 }
 
