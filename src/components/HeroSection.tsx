@@ -27,12 +27,12 @@ const HeroSection = () => {
             <Plane className="w-16 h-16 mx-auto text-primary animate-float" />
           </div>
           
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight drop-shadow-lg">
             Ingeniería Técnica
-            <span className="block text-primary">Aeronáutica</span>
+            <span className="block text-accent">Aeronáutica</span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
+          <p className="text-xl md:text-2xl text-white mb-8 leading-relaxed drop-shadow-md font-semibold">
             UTU Terciaria - Formación profesional de excelencia en el sector aeronáutico
           </p>
 
@@ -63,9 +63,8 @@ const HeroSection = () => {
             </Button>
             <Button
               onClick={() => scrollToSection("contacto")}
-              variant="outline"
               size="lg"
-              className="border-white/30 text-white hover:bg-white/10 px-8 py-4 text-lg font-semibold transition-all duration-300 hover:scale-105"
+              className="bg-secondary hover:bg-secondary/90 text-secondary-foreground px-8 py-4 text-lg font-semibold transition-all duration-300 hover:scale-105 aviation-shadow"
             >
               Contactar
             </Button>
