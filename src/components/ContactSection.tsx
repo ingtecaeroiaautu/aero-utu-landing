@@ -65,7 +65,7 @@ const ContactSection = () => {
 
   const handleWhatsAppClick = () => {
     const message = `¡Hola! Me interesa obtener más información sobre la carrera de Ingeniería Técnica Aeronáutica en UTU Terciaria.`;
-    const whatsappUrl = `https://wa.me/59899724887?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/59899999999?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, "_blank");
   };
 
@@ -174,7 +174,7 @@ const ContactSection = () => {
                 </div>
                 <div className="flex items-center space-x-3">
                   <MapPin className="w-5 h-5 text-primary" />
-                  <span>UTU Terciaria, Montevideo</span>
+                  <span>IAA, Cno. Melilla S/N, esq. Av. Lezica Montevideo, Uruguay</span>
                 </div>
               </CardContent>
             </Card>

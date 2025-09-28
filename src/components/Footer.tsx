@@ -37,7 +37,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="w-4 h-4" />
-                <span>UTU Terciaria, Montevideo</span>
+                <span>IAA, Cno. Melilla S/N, esq. Av. Lezica Montevideo, Uruguay</span>
               </div>
             </div>
           </div>
@@ -56,7 +56,7 @@ const Footer = () => {
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
           <p className="text-sm text-primary-foreground/80">
-            © 2024 UTU Terciaria - Ingeniería Técnica Aeronáutica. Todos los derechos reservados.
+            © 2025 UTU Terciaria - Ingeniería Técnica Aeronáutica. Todos los derechos reservados.
           </p>
         </div>
       </div>

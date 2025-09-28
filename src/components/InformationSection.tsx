@@ -8,16 +8,13 @@ const InformationSection = () => {
     {
       semester: "Primer Semestre",
       subjects: [
-        "Matemática",
+        "Matemática I",
         "Física I", 
         "Ciencia de los Materiales",
         "Aerodinámica",
         "Inglés Técnico I",
-        "Materiales de uso Aeronáutico",
         "Mantenimiento Aeronáutico",
-        "Sistemas Digitales",
-        "Electrónica Analógica",
-        "Legislación Aeronáutica"
+        "Electrónica Analógica"
       ]
     },
     {
@@ -26,7 +23,10 @@ const InformationSection = () => {
         "Matemática II",
         "Física II",
         "Inglés Técnico II", 
-        "Estructuras y Técnicas de Reparación"
+        "Estructuras y Técnicas de Reparación",
+        "Sistemas Digitales",
+        "Materiales de uso Aeronáutico",
+        "Legislación Aeronáutica"
       ]
     },
     {
@@ -82,7 +82,8 @@ const InformationSection = () => {
         "Sistema de Propulsión Aeroespaciales",
         "Metodología de la Investigación I",
         "Instalación de Sistemas de Aeronaves",
-        "Preservación e Investigación de Accidentes en la Aviación"
+        "Preservación e Investigación de Accidentes en la Aviación",
+        "Optativa"
       ]
     },
     {

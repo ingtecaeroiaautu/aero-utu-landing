@@ -26,7 +26,7 @@ const Header = () => {
               className="w-8 h-8"
             />
             <span className="text-xl font-bold text-primary">
-              UTU Aeronáutica
+              Ingenieria Tecnica Aeronáutica - UTU Terciaria
             </span>
           </div>
 
