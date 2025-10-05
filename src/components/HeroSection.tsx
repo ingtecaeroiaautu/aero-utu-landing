@@ -17,7 +17,7 @@ const HeroSection = () => {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${aviationHero})` }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/50"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70"></div>
       </div>
 
       {/* Content */}
@@ -27,28 +27,28 @@ const HeroSection = () => {
             <Plane className="w-16 h-16 mx-auto text-primary animate-float" />
           </div>
           
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight drop-shadow-lg">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight drop-shadow-[0_4px_12px_rgba(0,0,0,0.9)]">
             Ingeniería Técnica
-            <span className="block text-accent">Aeronáutica</span>
+            <span className="block text-accent drop-shadow-[0_4px_12px_rgba(0,0,0,0.9)]">Aeronáutica</span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-white mb-8 leading-relaxed drop-shadow-md font-semibold">
+          <p className="text-xl md:text-2xl text-white mb-8 leading-relaxed drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)] font-semibold">
             UTU Terciaria - Formación profesional de excelencia en el sector aeronáutico
           </p>
 
           {/* Stats */}
           <div className="grid md:grid-cols-3 gap-8 mb-12 max-w-3xl mx-auto">
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 animate-slide-up">
-              <div className="text-3xl font-bold text-accent mb-2">8</div>
-              <div className="text-white/80">Semestres</div>
+            <div className="bg-white/20 backdrop-blur-md rounded-lg p-6 animate-slide-up border border-white/30">
+              <div className="text-3xl font-bold text-accent mb-2 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">8</div>
+              <div className="text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">Semestres</div>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 animate-slide-up">
-              <Award className="w-8 h-8 text-accent mx-auto mb-2" />
-              <div className="text-white/80">Título Intermedio</div>
+            <div className="bg-white/20 backdrop-blur-md rounded-lg p-6 animate-slide-up border border-white/30">
+              <Award className="w-8 h-8 text-accent mx-auto mb-2 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]" />
+              <div className="text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">Título Intermedio</div>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 animate-slide-up">
-              <Users className="w-8 h-8 text-accent mx-auto mb-2" />
-              <div className="text-white/80">Modalidad Presencial</div>
+            <div className="bg-white/20 backdrop-blur-md rounded-lg p-6 animate-slide-up border border-white/30">
+              <Users className="w-8 h-8 text-accent mx-auto mb-2 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]" />
+              <div className="text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">Modalidad Presencial</div>
             </div>
           </div>
 
