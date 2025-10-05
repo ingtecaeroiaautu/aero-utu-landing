@@ -203,19 +203,21 @@ const ContactSection = () => {
               </CardContent>
             </Card>
 
-            {/* Info Box */}
+            {/* Survey Box */}
             <Card className="card-gradient card-shadow">
-              <CardContent className="pt-6">
-                <h3 className="text-lg font-semibold mb-3 text-primary">
-                  ¿Por qué elegir UTU Aeronáutica?
-                </h3>
-                <ul className="space-y-2 text-sm text-muted-foreground">
-                  <li>• Formación técnica de excelencia</li>
-                  <li>• Certificaciones reconocidas por DINACIA</li>
-                  <li>• Instalaciones modernas y equipamiento especializado</li>
-                  <li>• Docentes con experiencia en la industria aeronáutica</li>
-                  <li>• Excelentes oportunidades laborales</li>
-                </ul>
+              <CardHeader>
+                <CardTitle className="text-xl">Encuesta de interés sobre la carrera</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground mb-4">
+                  Ayúdanos a conocer tu interés en la carrera de Ingeniería Técnica Aeronáutica
+                </p>
+                <Button
+                  onClick={() => window.open("https://forms.google.com/", "_blank")}
+                  className="w-full bg-primary hover:bg-primary-hover text-primary-foreground py-3 text-lg font-semibold transition-all duration-300 hover:scale-105 aviation-shadow"
+                >
+                  Completar encuesta
+                </Button>
               </CardContent>
             </Card>
           </div>
