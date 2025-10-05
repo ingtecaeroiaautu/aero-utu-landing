@@ -65,7 +65,7 @@ const ContactSection = () => {
 
   const handleWhatsAppClick = () => {
     const message = `¡Hola! Me interesa obtener más información sobre la carrera de Ingeniería Técnica Aeronáutica en UTU Terciaria.`;
-    const whatsappUrl = `https://wa.me/59899999999?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/59894780157?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, "_blank");
   };
 
@@ -166,7 +166,7 @@ const ContactSection = () => {
               <CardContent className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <Phone className="w-5 h-5 text-primary" />
-                  <span>+598 2208 1111</span>
+                  <span>+598 094 780 157</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Mail className="w-5 h-5 text-primary" />
