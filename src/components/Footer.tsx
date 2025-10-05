@@ -15,7 +15,7 @@ const Footer = () => {
                 className="w-8 h-8"
               />
               <span className="text-xl font-bold">
-                UTU Aeronáutica
+                Ingenieria Tecnica Aeronáutica - UTU Terciaria
               </span>
             </div>
             <p className="text-primary-foreground/80 text-sm">
@@ -29,7 +29,7 @@ const Footer = () => {
             <div className="space-y-2 text-sm text-primary-foreground/80">
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4" />
-                <span>+598 2208 1111</span>
+                <span>+598 094 780 157</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4" />
