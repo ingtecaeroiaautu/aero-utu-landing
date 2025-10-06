@@ -213,7 +213,7 @@ const ContactSection = () => {
                   Ayúdanos a conocer tu interés en la carrera de Ingeniería Técnica Aeronáutica
                 </p>
                 <Button
-                  onClick={() => window.open("https://forms.google.com/", "_blank")}
+                  onClick={() => window.open("https://docs.google.com/forms/d/e/1FAIpQLSc0qqVUyY-12SmjT94FWuWpunOvyjbKcdRXYn9V9Tt1ExwTZg/viewform?pli=1", "_blank")}
                   className="w-full bg-primary hover:bg-primary-hover text-primary-foreground py-3 text-lg font-semibold transition-all duration-300 hover:scale-105 aviation-shadow"
                 >
                   Completar encuesta
