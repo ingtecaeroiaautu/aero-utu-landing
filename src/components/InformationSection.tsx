@@ -265,7 +265,7 @@ const InformationSection = () => {
             
             <div className="mt-8 text-center">
               <Button
-                onClick={() => window.open("https://drive.google.com/uc?export=download&id=1ykcdDqoV26m42NU0VhgMU2SA2iq-J5Vv", "_blank")}
+                onClick={() => window.open("https://drive.google.com/file/d/1ykcdDqoV26m42NU0VhgMU2SA2iq-J5Vv/view?usp=sharing", "_blank")}
                 className="w-full bg-primary hover:bg-primary-hover text-primary-foreground py-3 text-lg font-semibold transition-all duration-300 hover:scale-105 aviation-shadow"
               >
                 Descargar Programa de Carrera
