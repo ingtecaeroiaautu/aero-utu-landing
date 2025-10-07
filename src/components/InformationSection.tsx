@@ -263,9 +263,12 @@ const InformationSection = () => {
             </div>
             
             <div className="mt-8 text-center">
-              <Badge variant="secondary" className="text-sm px-4 py-2">
-                Al finalizar el segundo año (4 semestres) se expide el título intermedio de Técnico Aeronáutico
-              </Badge>
+              <Button
+                onClick={() => window.open("https://drive.usercontent.google.com/download?id=1ykcdDqoV26m42NU0VhgMU2SA2iq-J5Vv&export=download&authuser=0", "_blank")}
+                className="w-full bg-primary hover:bg-primary-hover text-primary-foreground py-3 text-lg font-semibold transition-all duration-300 hover:scale-105 aviation-shadow"
+              >
+                Descargar Programa de Carrera
+              </Button>
             </div>
           </CardContent>
         </Card>
